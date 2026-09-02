@@ -32,12 +32,7 @@ Springer production runs several months behind acceptance. Once the DOI is
 issued, please replace the line above with the Springer link and keep the arXiv
 link as a secondary reference.
 
-## Project Description
 
-Type: `Master Thesis.`  
-Department: `The Chair of Imaging and Computer Vision (Lehrstuhl für Bildgebung und Bildverarbeitung, LfB), RWTH Aachen.`  
-Supervisors: `Prof. Stegmaier.`  
-Imaging data: `This study utilized publicly available data from the TCGA Research Network with nuclei annotations from Gao et al.`  
 
 
 ## Dataset
