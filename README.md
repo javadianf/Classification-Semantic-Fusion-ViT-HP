@@ -25,7 +25,7 @@ modulation (MM), and both are evaluated against an RGB-only baseline trained
 under an identical protocol.
 
 
-Preprint: PENDING ARXIV LINK
+Preprint: [ARXIV LINK](https://arxiv.org/abs/2609.01426)
 
 Published version: forthcoming in the MICCAI COMPAYL++ 2026 proceedings (Springer LNCS).
 Springer production runs several months behind acceptance. Once the DOI is
