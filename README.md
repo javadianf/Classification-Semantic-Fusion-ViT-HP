@@ -95,7 +95,7 @@ subsequent experiments. It tokenises the image into 32x32 pixel patches, which
 captures local and global tissue context at the working resolution.
 
 <p align="center">
-  <img src="figures/pipeline_.png" width="600" alt="Pipeline overview">
+  <img src="figures/vit.png" width="600" alt="Pipeline overview">
 </p>
 
 
