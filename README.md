@@ -94,6 +94,16 @@ Google ViT Base Patch32-384, pretrained on ImageNet-21k, was selected for all
 subsequent experiments. It tokenises the image into 32x32 pixel patches, which
 captures local and global tissue context at the working resolution.
 
+<p align="center">
+  <img src="figures/pipeline_.png" width="600" alt="Pipeline overview">
+</p>
+
+
+The RGB patch and its nuclei classification map are fused by either HEC or MM,
+then passed to a Google ViT-B/32-384 backbone whose classification head is
+replaced with a three-grade output layer. Fusion happens entirely in image
+space, so the backbone is used unmodified.
+
 ### Classification map channel concatenation (HEC)
 
 Colour deconvolution [2] separates the H&E patch into hematoxylin (H) and
